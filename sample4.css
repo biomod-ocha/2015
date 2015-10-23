@@ -19,7 +19,13 @@ body {
 }
 p {text-indent:1em;}
 
+center2{
+  font-size: 70%;
+    line-height: 70%;
 
+  }
+
+ 
 a:hover {
   cursor: pointer;
 }
