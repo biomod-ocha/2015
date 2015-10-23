@@ -1,0 +1,41 @@
+//a要素(エレメント)を全て取得する
+var links = document.getElementsByTagName("a");
+
+//a要素全てに対して、タッチイベントを設定する
+for(var i=0,l=links.length; l>i ;i++){
+
+    //links[i]にタッチイベントを設定する
+    links[i].onclick = function(){
+
+        //この中は、タッチされた時に実行する処理
+        //タッチされたエレメントは[this]で取得可
+
+        //[href]要素を取得する
+        var href = this.getAttribute("href");
+
+        //[#=先頭1文字]を取り除く
+        var targetId = href.substr(1);
+
+        //目的地の要素(エレメント)を取得する
+        var targetElm = document.getElementById(targetId);
+
+        //エレメントがない場合はタッチイベントを実行しない
+        //すわなち、エレメントがある場合のみ、イベントを実行する
+        if(targetElm != null){
+
+            //目的地の位置座標を取得する
+            var targetX = targetElm.offsetLeft;
+            var targetY = targetElm.offsetTop;
+
+            //目的地の位置座標まで移動する
+            window.scrollTo( targetElm.offsetLeft , targetElm.offsetTop );
+
+            //イベントを中止する
+            //[URL欄のアドレスが[...index.html#hoge]に変わるのを阻止する]
+            return false;
+
+        }
+
+    }
+
+}

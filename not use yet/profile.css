@@ -1,0 +1,105 @@
+#wrap {
+    width:980px;
+    margin:0 auto;
+}
+
+#header {
+    border:dashed 1px #999;
+    width:980px;
+    text-align: center;
+}
+
+a{
+    bottom:0%;
+
+}
+a:link{
+    color:#ffffff;
+    vertical-align:bottom;
+    text-decoration: none;
+}
+a:visited{
+    color:#ffffff;
+    vertical-align:bottom;
+    text-decoration: none;
+
+}
+a:hover{
+    color:#ffffff;
+    vertical-align:bottom;
+    text-decoration: underline;
+
+}
+a:active{
+    color:#ffffff;
+    vertical-align:bottom;
+    text-decoration: none;
+
+}
+#navigation{
+    height:120px;
+    width:980px;
+    background-color:#FF0099;
+    margin-top:10px;
+    border:dashed 1px #999;
+    padding:20px;
+    
+}
+#sidebar{
+    width:100px;
+    min-height:500px;
+    height:auto;
+    float:left;
+    margin-top:10px;
+    position:fixed;
+    background: #FF0099;  
+    padding: 10px;  
+    top: 600px;  
+    z-index: 30;  
+ 
+}
+#contents {
+    padding: 10px 0px 20px 10px;
+    margin :10px;
+    margin-left:150px;
+    width:820px;
+    min-height:500px;
+    height:auto;
+    border:dashed 1px #999;
+    }
+
+
+    
+p.aboutus{
+    text-indent:20px;
+    word-wrap: break-word;
+    margin-bottom:0px;
+}
+
+table{
+    rules:none;
+    margin:10px;
+    padding:10px 10px;
+    
+    width:820px;
+    table-layout:fixed;
+    border-spacing: 50px;
+    border-collapse:separate;
+
+
+}
+table.photo{
+    
+    width:820px;
+    margin-bottom: 20px;
+    border:10px;
+
+}
+
+footer {
+    border:dashed 1px #999;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+    display: block;
+}

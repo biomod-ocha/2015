@@ -1,0 +1,98 @@
+#wrap {
+    width:980px;
+    margin:0 auto;
+
+}
+
+#header {
+    border:dashed 1px #999;
+    width:980px;
+}
+a:link{
+    color:#ffffff;
+    vertical-align:bottom;
+    text-decoration: none;
+}
+a:visited{
+    color:#ffffff;
+    vertical-align:bottom;
+    text-decoration: none;
+
+}
+a:hover{
+    color:#ffffff;
+    vertical-align:bottom;
+    text-decoration: underline;
+
+}
+a:active{
+    color:#ffffff;
+    vertical-align:bottom;
+    text-decoration: none;
+
+}
+#navigation{
+
+    width:980px;
+    height:120px;
+    background-color:#FF0099;
+    margin-top:10px;
+    border:dashed 1px #999;
+    padding:20px;
+}
+#sidebar{
+    color:#ffffff;
+    width:140px;
+    min-height:150px;
+    
+    float:left;
+    margin-top:10px;
+    height:200px;
+    background: #FF0099;  
+    padding: 10px;  
+    
+    
+ 
+}
+#contents {
+    text-indent: 10px;
+    padding: 0px 0px 20px 10px;
+    margin:10px;
+    margin-left:180px;
+    width:780px;
+    min-height:500px;
+    height:auto;
+    border:dashed 1px #999;
+    margin-top:10px;
+
+}
+
+p.gold{
+    text-indent:20px;
+    word-wrap: break-word;
+    margin-bottom:0px;
+}
+p.gold2{
+    text-indent:20px;
+    word-wrap: break-word;
+    margin-top:0px;
+    margin-bottom:0px;
+
+}
+p.gold3{
+    text-indent:20px;
+    word-wrap: break-word;
+    margin-top:0px;
+
+}
+
+footer {
+    margin-top;
+    width:980px;
+    height:100px;
+    border:dashed 1px #999;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+   display: block;
+}
