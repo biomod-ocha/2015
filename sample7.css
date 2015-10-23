@@ -1,9 +1,14 @@
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
 
 html,
 body {
   font-size: 100%;
 }
-
 
 body {
   background: white;
@@ -16,8 +21,8 @@ body {
   line-height: 190%;
   position: relative;
   cursor: default;
-  text-align: justify;
-}
+text-align: justify;
+}  
 p {text-indent:1em;}
 
 
@@ -64,11 +69,20 @@ ul.no-bullet li ol {
   list-style: none;
 }
 
+ul2,
+ {
+  font-size: 1.5rem;
+  line-height: 1.6;
+  margin-bottom: 1.25rem;
+  list-style-position: outside;
+  font-family: inherit;
+}
+
 
 /*Websymphony.net header*/
 body nav.navigation {
   background: #3e444e;
-  border-bottom: 1px solid #3e444e;
+  border-bottom: 1px solid #343a44;
   clear: both;
   position: relative;
   min-height: 70px;
@@ -143,8 +157,9 @@ body nav.navigation ul.main-navigation li.first {
 
 #sidebar{
     color:#ffffff;
+    font color:#c8c8c8;
     width:200px;
-    height:200px;
+    height:260px;
     float:left;
     margin-top:10px;
     position:fixed;
@@ -169,47 +184,25 @@ body nav.navigation ul.main-navigation li.first {
 
 }
 
-p.aboutus{
+p.gold{
     text-indent:20px;
     word-wrap: break-word;
     margin-bottom:0px;
 }
-
-p.step1{
-    text-indent:20px;
-    word-wrap: break-word;
-    margin-bottom:0px;
-}
-p.step2{
+p.gold2{
     text-indent:20px;
     word-wrap: break-word;
     margin-top:0px;
+    margin-bottom:0px;
 
 }
-p.step2_1{
+p.gold3{
     text-indent:20px;
     word-wrap: break-word;
     margin-top:0px;
 
 }
-p.step3{
-    text-indent:20px;
-    word-wrap: break-word;
-    margin-bottom:0px;
-    margin-top:0px;
-}
-p.step3_1{
-    text-indent:20px;
-    word-wrap: break-word;
-    margin-top:0px;
-    margin-bottom:0px;
-}
-p.step3_2{
-    text-indent:20px;
-    word-wrap: break-word;
-    margin-top:0px;
-    margin-bottom:0px;
-}
+
 footer {
     margin-top;
     width:980px;
@@ -217,6 +210,4 @@ footer {
     border:none 1px #999;
 }
 
-article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
-   display: block;
-}
+

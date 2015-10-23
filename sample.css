@@ -141,13 +141,13 @@ body nav.navigation ul.main-navigation li.first {
 
 #sidebar{
     color:#ffffff;
-    width:190px;
+    width:200px;
     height:200px;
     float:left;
     margin-top:10px;
     position:fixed;
     padding: 10px; 
-    padding-right:10px;
+    padding-left:0px;
     background: #FF0099;  
     top: 61px;  
     z-index: 30;
