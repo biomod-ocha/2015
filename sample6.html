@@ -38,7 +38,7 @@
 </body>
  <div id="sidebar">
  <ul>
-<a href="#step1"font size="5" style="text-align : left" ><li>THE WAVE NATURE of LIGHT</li></a>
+<a href="#step3"font size="5" style="text-align : left" ><li>INTERFERENCE EFFECT by GOLD NANOPARTICLES</li></a>
 </ul>
 <p>
 <ul>
@@ -50,58 +50,47 @@
 <font size="5">
 <div id="contents">
 <h1>SIMULATION</h1>
-<h2 id="step1">THE WAVE NATURE of LIGHT</h2>
-<p class="abstract1">
-In Young's double-slit interferometer, light from each side of double-slit make interference fringe on a screen.  This shows a fact that light has the wave nature, and thus, light is also described by the wave equation.
-</p>
-<h3>Solar Spectrum</h3>
-<p>
+
+
+<h2 id="step3"  style="text-align : left">INTERFERENCE EFFECT by GOLD NANOPARTICLES</h2>
 Solar spectrum can be calculated with Plank’s law.
 <br>
 <img src="./image/siki.jpg" alt="サンプル" width="170px" height="70px">
 <br>
-where, B is energy[W/m3], λ is wave length, h is planck constant 6.626×10−34 [J*s],  c is speed of light 2.998×108[m/s], kB is boltzmann constant 1.381×10-23[J/K], and T is temperature 5800[K] 
+Where, B is energy[W/m<sup>3</sup>], λ is wave length, h is planck constant 6.626×10<sup>−34</sup> [J*s],  c is speed of light 2.998×10<sup>8</sup>[m/s], k<sub>B</sub> is boltzmann constant 1.381×10<sup>-23</sup>[J/K], and T is temperature 5800[K] 
 <p>
-These are results of the simulation. Figure 1 shows strength of solar light depending wave length after taking interference effects into account. We can see that UV is greatly reduced while strength of visible lights is more than twice. 
+These are results of the simulation.
+ In our simulation, we assumed the attachment of gold nanoparticles below (Fig1).  Solar altitudes between 45°and 75°are calculated because UV is the strongest at those altitudes.
+<center><img src="./image/simuzu6.jpg" alt="サンプル" width="800px" height="450px">
+Figure1: The Attachment of Gold Nanoparticles</center><br>
+ <p>We simulated the strength of solar light depending wavelength after considering interference effects created by the gold nanoparticles (Fig2). We can see that UV is greatly reduced while strength of visible lights is more than twice. </p>
+<center><img src="./image/simuzu7.jpg" alt="サンプル" width="800px" height="450px">
+Figure2: Solar Spectrum of interfered Solar Light</center>
 <br>
-<br>
-<br>
-<img src="./image/simuzu1.jpg" alt="サンプル" width="800px" height="450px">
-<br>
-<center>
-Figure1: Spectrum of Interfered Solar Light
-</center>
+ <p>Compared with original solar spectrum, however, solar light is reduced excessively on all wavelength. There is little difference between strength of UV and visible light.　(Fig3)</p>
+ <center><img src="./image/simuzu8.jpg" alt="サンプル" width="800px" height="450px">
+Figure3: Spectrum of solar spectrum and interfered Solar Light </center>
+ <p>It might be impossible that we get strong wavelength dependence, but at least we can cut over 90 % of UV.</p>
 
-<p>
-Compared with original solar spectrum, however, solar light is reduced excessively on all wave length. There is little difference between strength of UV and visible light.　(Figure2)
-</p>
 <br>
-<img src="./image/simuzu2.jpg" alt="サンプル" width="800px" height="450px">
-<br>
-<center>
-Figure2: Solar Spectrum and Spectrum of Interfered Solar Light
-</center>
-<p>
- It might be impossible that we get strong wavelength dependence, but at least we can cut over 90 % of UV.
-</p>
 
-<p class="abstract2">
-</p>
-
-<h2 id="step2">ATTACHMENT and DETACHMENT of DNA SHEETS</h2>
+<h2 id="step2" style="text-align : left">ATTACHMENT and DETACHMENT of DNA SHEETS</h2>
 <p class="motivation">
-DNA sheets are attached to each other with two types staple DNA on long and short sides of the sheets. Tm value is the temperature at which a half of DNA double helix dissociates into single strands, and the one on a long side is 71.8℃ while the one on a short side is 58.8℃. This means probabilities of attachments of both sides are different. At the same time, detachments of the sheets also happen. These will cause deviation of or make blanks in a linked structure. Therefore, it is necessary to simulate whether the supposed structure is made. 
+In our project, we connected DNA origami to each other using two types of staple strands, one for the horizontal arrangement and the other for the vertical arrangement. These two strands have a different Tm value; the strand responsible for the horizontal arrangement has a Tm value of 71.8℃ while the strand for the vertical arrangement has a Tm value of 58.8℃. Tm value is the temperature at which half of DNA double helix dissociates into single strands. This means the rate of attachment for each side of the origami is different. Moreover, detachment of them can happen as well. For this reason, we cannot expect all the origami to assemble perfectly; there may be holes in our sheet. Therefore, it is necessary to simulate whether or how well the supposed structure is actually made. 
 </p>
 <p>
-Our simulation was made with Random Function of mathematica, changing probability of conation for detachment.
+Our simulation was made with the Random Function of Mathematica, changing the probability of conation for detachment.
 <p>
-The below is simulation results. The graph makes comparisons the total or well assembled number of DNA sheets possibly linked on average at a low detachment rate with a high detachment rate when 100 attachments or detachments totally happen. The two figures show examples of the structures.
-</p>
-<img src="./image/simuzu3.jpg" alt="サンプル" width="800px" height="450px">
-<img src="./image/simuzu4.jpg" alt="サンプル" width="400px" height="225px">
-<img src="./image/simuzu5.jpg" alt="サンプル" width="400px" height="225px">
-
-
+Below is the simulation results (Fig4). We hypothesized two different detachment rates, high and low, and compared the number of the origami that formed a structure when 100 attachments or detachments occurred. The test was simulated 10 times for both detachment rates, and the average is shown in the graph. In the graph, ‘total’ is the number of origami included in the whole structure of the sheet, and ‘well assembled’ is the number of origami composing the largest rectangular area. The two figures show examples of the structures (Fig5-a,b).</p>
+<center><img src="./image/simuzu9.jpg" alt="サンプル" width="800px" height="450px">
+Figure4. Comparison of the number of origami included in a sheet, depending on high or low detachment rate. ‘Total’ indicates the number of origami forming the whole sheet structure, while ‘well assembled’ indicates the number of origami included in the largest rectangular area.
+<br><br>
+<br>a.<img src="./image/simuzu4.jpg" alt="サンプル" width="400px" height="225px">
+<br>b.<img src="./image/simuzu5.jpg" alt="サンプル" width="400px" height="225px">
+<br>Figure 5. DNA sheet structure when detachment rate is high (a) or low (b). The red frame indicates the largest rectangular area; defined as ‘well assembled’ structure.
+</center>
+<br>
+<br>
 
 
 </div>
