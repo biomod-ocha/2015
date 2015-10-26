@@ -36,6 +36,8 @@ div#headerArea {
     background-color:#3e444e ;  
     color: #fff;  
 }  
+li { color:#3e444e; }
+
 
 .antialiased {
   -webkit-font-smoothing: antialiased;
@@ -162,7 +164,7 @@ body nav.navigation ul.main-navigation li.first {
     background: #FF0099;  
     top: 61px;  
     z-index: 3;
-    text-align="center"
+    border-radius:15px;
     }
     
 

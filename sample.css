@@ -22,6 +22,8 @@ p {text-indent:1em;}
 a:hover {
   cursor: pointer;
 }
+li { color:#3e444e; }
+
 
 div#headerArea {  
     position: fixed !important;  
@@ -33,7 +35,6 @@ div#headerArea {
     background-color:#3e444e ;  
     color: #fff;  
 }  
-
 
 .antialiased {
   -webkit-font-smoothing: antialiased;
@@ -161,6 +162,7 @@ body nav.navigation ul.main-navigation li.first {
     background: #FF0099;  
     top: 61px;  
     z-index: 30;
+border-radius:15px;
     }
     
     
